@@ -28,9 +28,9 @@ public class LinearSearch {
 	public int linearSearch() {
 		for(int i = 0; i < inputSize; i++) {
 			if (array[i] == searchKey)
-				return i; // return index of 1st occurrence of key
+				return i; 
 		}
-		return -1; // Element not found
+		return -1;
 	}
 	
 	public static void main(String[] args) {
